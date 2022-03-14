@@ -1,7 +1,7 @@
 import React from 'react';
 
-function CheckOut() {
+function Checkout() {
 	return <h1>Checkout</h1>;
 }
 
-export { CheckOut };
+export { Checkout };
