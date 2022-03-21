@@ -10,8 +10,10 @@ function Products() {
 	} = useContext(AppContext);
 
 	const handleAddToCart = (product) => () => {
-		addToCart(product);
-		console.log(product);
+		addToCart({
+			...product,
+			cartId: crypto.randomUUID(),
+		});
 	};
 	return (
 		<div className="Products">
