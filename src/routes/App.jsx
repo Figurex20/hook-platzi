@@ -11,6 +11,7 @@ import {
 import { Layout } from '../components/Imports';
 import { AppContext } from '../context/AppContext';
 import { useInitialState } from '../hooks/useInitialState';
+
 function App() {
 	const initialState = useInitialState();
 	return (
